@@ -1,0 +1,130 @@
+/* REMEMBER...MARGIN HAS 4 VALUES. TOP, BOTTOM, LEFT, RIGHT */
+/* YOU CAN SET THE MARGINS IN SAME LINE BY SEPERATING EACH VALUE WITH A SPACE */
+body{
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.header {
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+    background-color: #00e5ff;
+    border: 10px solid;
+    border-top-color: #00a9ff;
+    border-right-color: #00a9ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+}
+
+.instructions {
+    width: 75%;
+    margin: 2% 0 0 11%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#FFB6C1;
+    border: 5px solid rgba(30, 255, 68, 0.911);
+}
+
+.random-number {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 15%;
+    text-align: center;
+    background-color: #00e5ff;
+    border: 10px solid;
+    border-top-color: #00d8ff;
+    border-right-color: #00d8ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+    margin: 2% 0 0 43%;
+    font-size: 64px;
+}
+
+.crystal-array {
+    text-align: center;
+    /* background-color:#FFB6C1; */
+    /* border: 5px solid rgba(30, 255, 68, 0.911); */
+    width: 50%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin: 1.5% 0 0 25%;
+}
+
+.jewel {
+    height: 80px;
+    width: 80px;
+    border: 15px solid;
+    margin: 0 2% 0 3%;
+}
+
+.amethyst {
+    border-top-color: #9900fa;
+    border-right-color: #9900fa;
+    border-bottom-color: #820099;
+    border-left-color: #820099;
+    background-color: #8c00c3;
+}
+
+.emld {
+    border-top-color: #66dc00;
+    border-right-color: #66dc00;
+    border-bottom-color: #006600;
+    border-left-color: #006600;
+    background-color: #239900;
+}
+
+.ruby {
+    border-top-color: #ff0000;
+    border-right-color: #ff0000;
+    border-bottom-color: firebrick;
+    border-left-color: firebrick;
+    background-color: #cc0000;
+}
+
+.sapphire {
+    border-top-color: #faff00;
+    border-right-color: #faff00;
+    border-bottom-color: #ebcc00;
+    border-left-color: #ebcc00;
+    background-color: #facc00;
+}
+
+.total-score {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #00e5ff;
+    border: 8px solid;
+    border-top-color: #00a9ff;
+    border-right-color: #00a9ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+    font-size: 32px;
+    width: 26%;
+    margin: 2% 0 0 20%;
+    padding-bottom: 12px;
+}
+
+.wins-loses {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 26%;
+    background-color: #00e5ff;
+    border: 8px solid;
+    border-top-color: #00a9ff;
+    border-right-color: #00a9ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+    margin-top: 2%;
+    margin-right: 20%;
+    font-size: 25px;
+    padding-bottom: 12px;
+}
